@@ -29,7 +29,7 @@
  - Also support openCL
 `gcc -o parallel parallel.c -std=c99 -lglut -lGL -lm -O2 -ftree-vectorize  -fopt-info-vec -ffast-math -mavx2 -fopenmp -lOpenCL`
 
-1. Compiling on MacOS X
+2. Compiling on MacOS X
  - No optimizations
 `clang -o parallel parallel.c -framework GLUT -framework OpenGL`
 
